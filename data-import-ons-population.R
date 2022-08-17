@@ -46,4 +46,4 @@ ons_population <-
 # like "England and Wales"
 # i'm hoping these will be cut in the merges
 
-table(ons_population$la_name)
+

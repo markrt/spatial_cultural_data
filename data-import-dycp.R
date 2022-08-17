@@ -146,3 +146,17 @@ dycp_overall <-
               sum(dycp_money)) %>% 
   full_join(npo)
 
+rm(dycp_1,
+   dycp_2,
+   dycp_3,
+   dycp_4,
+   dycp_5,
+   dycp_6,
+   dycp_7,
+   dycp_8,
+   dycp_9,
+   dycp_10,
+   dycp_11,
+   dycp_12,
+   dycp_13,
+)

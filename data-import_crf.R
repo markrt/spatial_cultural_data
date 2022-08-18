@@ -74,7 +74,13 @@ rm(crf_money_3_continuity_support,
 names(crf_overall)
 
 crf_overall <- 
-  crf_overall %>% 
+  crf_overall %>%
   rename(la_name = 
            Local.Authority) %>% 
+  mutate(la_name = 
+           fct_recode(la_name,
+                      "King’s Lynn and West Norfolk" =
+                        "King's Lynn and West Norfolk")) %>% 
   full_join(dycp_overall)
+
+
